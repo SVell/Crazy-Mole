@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 namespace SVell 
@@ -8,18 +7,34 @@ namespace SVell
 		[SerializeField] private LineRenderer lineRenderer;
 		[SerializeField] private float lineSize = 3f;
 		[SerializeField] private float launchStrength;
+		[SerializeField] private float loseVelocity = 0.05f;
 
-		private Rigidbody _rigidbody;
+		private Mole _mole;
 		
+		private Rigidbody _rigidbody;
+
 		private Vector3 _secondPoint;
 
 		private void Awake()
 		{
 			_rigidbody = GetComponent<Rigidbody>();
+			_mole = GetComponent<Mole>();
 		}
 
 		private void Update()
 		{
+			Launch();
+
+			if (_mole.MoleState == MoleState.Moving)
+			{
+				CheckMoleMovement();
+			}
+		}
+
+		private void Launch()
+		{
+			if(_mole.MoleState != MoleState.Launching) return;
+			
 			Vector3? worldPoint = CastMouseClickRay();
 			
 			if (!worldPoint.HasValue) return;
@@ -32,6 +47,16 @@ namespace SVell
 			if (Input.GetMouseButtonUp(0))
 			{
 				Shoot(worldPoint.Value);
+				_mole.SetMoleState(MoleState.Moving);
+			}
+		}
+
+		private void CheckMoleMovement()
+		{
+			if (_rigidbody.velocity.magnitude <= loseVelocity)
+			{
+				Debug.Log("GG");
+				_mole.SetMoleState(MoleState.Stopped);
 			}
 		}
 

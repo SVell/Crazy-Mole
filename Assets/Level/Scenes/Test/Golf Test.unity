@@ -717,7 +717,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1008072628}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -1017,6 +1017,7 @@ MonoBehaviour:
   lineRenderer: {fileID: 250348678}
   lineSize: 3
   launchStrength: 1500
+  loseVelocity: 0.05
 --- !u!114 &1483046523
 MonoBehaviour:
   m_ObjectHideFlags: 0

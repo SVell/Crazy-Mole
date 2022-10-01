@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Level/Scenes/Template/Scene Template.unity
-    guid: 491bac18b84a74e49be83315c6d96c8e
+    path: Assets/Level/Scenes/Test/Golf Test.unity
+    guid: 038bd915460eabb42a35f53e015bdd3b
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 2a33839eabf07544b85acfdc1883082a, type: 2}
