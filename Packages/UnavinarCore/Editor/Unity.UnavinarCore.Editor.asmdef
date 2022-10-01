@@ -1,0 +1,16 @@
+{
+    "name": "Unity.UnavinarCore.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:71dad89a239253647aa5b7867677b297"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

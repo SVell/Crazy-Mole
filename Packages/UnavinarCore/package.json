@@ -1,0 +1,18 @@
+{
+  "name": "com.unavinar.core",
+  "version": "1.0.1",
+  "displayName": "HC Unavinar Core",
+  "description": "A collection of userful scripts and assets to youse in a HyperCasual Game",
+  "documentationUrl": "https://www.notion.so/Unavinar-Template-Guide-55335a1fbeee46dca20b61d5ae459590",
+  "keywords": [
+    "keyword1",
+    "keyword2",
+    "keyword3"
+  ],
+  "author": {
+    "name": "Viacheslav Surzhenko",
+    "email": "v.surzhenko@unavinar.com",
+    "url": "https://github.com/SVell"
+  },
+  "type": "library"
+}

@@ -1,0 +1,15 @@
+{
+    "AutoNames": true,
+    "SubFolders": true,
+    "OverwriteConfig": false,
+    "LoadAllShaders": false,
+    "CustomOutputPath": "/JMO Assets/Toony Colors Pro/Shaders Generated/",
+    "LastImplementationExportImportPath": "C:/Users/user/Documents/GitHub/com.unavinar.hc.prototypes/templates/com.unavinar.hc.template00/Assets",
+    "OpenedFoldouts": [],
+    "UseCustomFont": false,
+    "CustomFont": {
+        "instanceID": 0
+    },
+    "CustomFontInitialized": true,
+    "Upgrade_Hybrid1toHybrid2_Done": true
+}
