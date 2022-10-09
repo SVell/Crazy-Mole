@@ -1,9 +1,19 @@
 fileFormatVersion: 2
-guid: 88cecf40a6fae9e4c91c9608f424e805
+guid: 36a6e0d3fc3963743aeb24cec526eee0
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Triangle_Ground7
+    second: {fileID: 2100000, guid: aa15f68ce23948448b00350027728422, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Wood7
+    second: {fileID: 2100000, guid: 8fefd17b1127e7844b2c3fbdd1f9b046, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

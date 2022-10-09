@@ -1,9 +1,14 @@
 fileFormatVersion: 2
-guid: 326a496b88ccb1c4ca2d7a1cb928a295
+guid: 47b37dc74a64c3847b8a5d214572dc08
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Wood6
+    second: {fileID: 2100000, guid: 868202a9beaa8c347aed31e31cb5ba34, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
