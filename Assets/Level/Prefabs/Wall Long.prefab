@@ -92,9 +92,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wall: {fileID: 2576534339503809176}
-  moveLength: 0.25
-  moveInDuration: 0.1
-  moveOutDuration: 1
+  settings: {fileID: 11400000, guid: 4b98c47a6934e7f42b693371f8f7f800, type: 2}
 --- !u!1001 &6948346999124347681
 PrefabInstance:
   m_ObjectHideFlags: 0

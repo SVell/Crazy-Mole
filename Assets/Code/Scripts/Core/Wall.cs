@@ -1,16 +1,47 @@
+using DG.Tweening;
 using UnityEngine;
 
 namespace SVell 
 {
-	public abstract class Wall : MonoBehaviour
+	public class Wall : MonoBehaviour
 	{
-		protected abstract void OnPlayerCollide();
+		[SerializeField] private Transform wall;
 
-		private void OnCollisionEnter(Collision other)
+		[Header("Settings")] 
+		[SerializeField] private WallSettings settings;
+		
+
+		private bool CheckForPlayer(Transform target)
 		{
-			if (other.transform.CompareTag("Player"))
+			return target.CompareTag("Player");
+		}
+
+		private void OnPlayerEnter()
+		{
+			wall.DOMove(wall.position - wall.forward * settings.MoveLength, settings.MoveInDuration).OnComplete(() =>
 			{
-				OnPlayerCollide();
+				wall.DOMove(wall.position + wall.forward * settings.MoveLength, settings.MoveOutDuration);
+			});
+		}
+
+		private void OnPlayerExit(Rigidbody player)
+		{
+			player.AddForce(player.velocity.normalized * settings.BounceForce, ForceMode.Impulse);
+		}
+
+		private void OnCollisionEnter(Collision collision)
+		{
+			if (CheckForPlayer(collision.transform))
+			{
+				OnPlayerEnter();
+			}
+		}
+
+		private void OnCollisionExit(Collision collision)
+		{
+			if (CheckForPlayer(collision.transform))
+			{
+				OnPlayerExit(collision.rigidbody);
 			}
 		}
 	}
