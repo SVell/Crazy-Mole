@@ -1887,9 +1887,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wall: {fileID: 939808144}
-  moveLength: 0.25
-  moveInDuration: 0.1
-  moveOutDuration: 1
+  settings: {fileID: 0}
 --- !u!65 &939808146
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2881,9 +2879,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wall: {fileID: 1600135480}
-  moveLength: 0.25
-  moveInDuration: 0.1
-  moveOutDuration: 1
+  settings: {fileID: 0}
 --- !u!65 &1600135482
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3079,9 +3075,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wall: {fileID: 1782809430}
-  moveLength: 0.25
-  moveInDuration: 0.1
-  moveOutDuration: 1
+  settings: {fileID: 0}
 --- !u!65 &1782809432
 BoxCollider:
   m_ObjectHideFlags: 0
