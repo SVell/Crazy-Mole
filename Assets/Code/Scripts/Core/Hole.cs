@@ -5,12 +5,11 @@ namespace SVell
 {
 	public class Hole : MonoBehaviour
 	{
+		[SerializeField] private GameObject borderColliders;
+		
 		private void OnTriggerEnter(Collider other)
 		{
-			if (other.CompareTag("Player"))
-			{
-				SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-			}
+			
 		}
 	}
 }
