@@ -42,6 +42,7 @@ namespace SVell
 			if (Input.GetMouseButton(0))
 			{
 				DrawLine(worldPoint.Value);
+				_mole.transform.LookAt(-worldPoint.Value);
 			}
 
 			if (Input.GetMouseButtonUp(0))
