@@ -1,9 +1,64 @@
 fileFormatVersion: 2
-guid: a44d346d9f24dba48a9218fbbde3db57
+guid: b037cc970b4645b449ced88c2bb78385
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Environment_atlas_texture_mtl
+    second: {fileID: 2100000, guid: e6125bfcf9c77b9418a80b0f331e8726, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black_whole
+    second: {fileID: 2100000, guid: c3aa169ca45962b4d8687aaa1d0ab620, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bushes
+    second: {fileID: 2100000, guid: 8ce1ca3436e91a045b1f6f2a4392d92e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: casual_tree
+    second: {fileID: 2100000, guid: e90f5785e0070e640a4677589123f66e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grass
+    second: {fileID: 2100000, guid: 53b8e37a71e9e484b92f323ff60c00e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grass1
+    second: {fileID: 2100000, guid: b0b3587ef134c5b4e9e2ee89beaff507, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ground
+    second: {fileID: 2100000, guid: 650524e3f209bd0448c539698a24a965, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ground_stone
+    second: {fileID: 2100000, guid: 2562aa74b5df3384f90d542233aa7a9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pine_leafs
+    second: {fileID: 2100000, guid: 8a8363ba463843d4985f6c5911614bb6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stone
+    second: {fileID: 2100000, guid: 03aac9051094c774eb6ef45bb9e01420, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood
+    second: {fileID: 2100000, guid: 8ef0727ba5afbb943873bb5835cc2914, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
