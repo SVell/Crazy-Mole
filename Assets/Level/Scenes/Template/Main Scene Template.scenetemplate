@@ -17,6 +17,8 @@ MonoBehaviour:
   description: Unavinar scene structure template
   preview: {fileID: 2800000, guid: 514d8bfcac418c84ca5fe129de608c84, type: 3}
   dependencies:
+  - dependency: {fileID: 12800000, guid: c16eb7d7c3953489db00312b8b09df4b, type: 3}
+    instantiationMode: 1
   - dependency: {fileID: 5849599012358144073, guid: ca09ef42510fd704bb3c0834533438ed, type: 3}
     instantiationMode: 0
   - dependency: {fileID: 8797754382625320352, guid: baa3ecb0d1daa4a428047344a0ea9f4a, type: 3}
